@@ -120,7 +120,6 @@ header {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  gap: 50px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1428em;
@@ -130,10 +129,15 @@ header {
 }
 
 .icon-mail {
+  width: 16px;
+  height: 12px;
   margin-right: 10px;
+  fill: var(--blue);
 }
 
 .icon-phone {
+  width: 10px;
+  height: 16px;
   margin-right: 10px;
 }
 
@@ -145,6 +149,7 @@ header {
 .mail {
   color: var(--blue);
   text-decoration: none;
+  margin-right: 30px;
 }
 
 .tel {
