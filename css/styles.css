@@ -129,6 +129,21 @@ header {
   padding: 32px 0 32px 0;
 }
 
+.icon-mail {
+  margin-right: 10px;
+  fill: red;
+}
+
+.icon-phone {
+  margin-right: 10px;
+  fill: red;
+}
+
+.icon-mail:hover,
+.icon-phone:hover {
+  fill: var(--blue);
+}
+
 .mail {
   color: var(--blue);
   text-decoration: none;

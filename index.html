@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link href="./css/styles.css" rel="stylesheet" />
   </head>
   <body>
     <!--Nagłówek strony-->
@@ -35,11 +35,19 @@
         <!-- Linki w nagłówku -->
         <ul class="contact">
           <li>
+            <svg class="icon-mail" width="16px" height="12px">
+              <use href="./images/icons.svg#icon-envelope"></use>
+            </svg>
             <a class="mail" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li><a class="tel" href="tel:+48111111111">+48 111 111 111</a></li>
+          <li>
+            <svg class="icon-phone" width="10px" height="16px">
+              <use href="./images/icons.svg#icon-smartphone"></use>
+            </svg>
+            <a class="tel" href="tel:+48111111111">+48 111 111 111</a>
+          </li>
         </ul>
       </div>
     </header>
