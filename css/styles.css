@@ -17,6 +17,7 @@
   --border-header: #ececec;
   --border-clients: #afb1b8;
   --border-pf-li: #eeeeee;
+  --sm-footer-background: rgba(255, 255, 255, 0.1);
 }
 
 body {
@@ -365,6 +366,33 @@ h1:hover {
   text-decoration: underline solid var(--blue);
 }
 
+.sm-links {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.circle {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle:hover {
+  background-color: var(--blue);
+}
+
+.sm-icon {
+  fill: var(--border-clients);
+}
+
+.circle:hover .sm-icon {
+  fill: var(--white);
+}
+
 /* Czwarta sekcja 8*/
 
 .four-section {
@@ -422,7 +450,9 @@ footer {
 }
 
 .footer {
+  display: flex;
   margin: 0 auto;
+  gap: 70px;
 }
 
 .footer-logo {
@@ -486,6 +516,44 @@ footer {
 .tel-footer:hover,
 .address-link:hover {
   text-decoration: underline solid var(--blue);
+}
+
+.h5-footer {
+  color: var(--white);
+  text-align: left;
+  padding: 16px 0 20px 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 0.03em;
+  text-transform: uppercase;
+}
+
+.sm-links-footer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.circle-footer {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.circle-footer:hover {
+  background-color: var(--blue);
+}
+
+.sm-icon-footer {
+  fill: var(--border-clients);
+}
+
+.circle-footer:hover .sm-icon-footer {
+  fill: var(--white);
 }
 
 /* Portfolio Menu */
