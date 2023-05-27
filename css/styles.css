@@ -15,6 +15,7 @@
   --light-gray: #f5f4fa;
   --button-blue: #0000ff;
   --border-header: #ececec;
+  --border-clients: #afb1b8;
   --border-pf-li: #eeeeee;
 }
 
@@ -129,20 +130,25 @@ header {
 }
 
 .icon-mail {
+  width: 20px;
+  height: 16px;
   margin-right: 10px;
-  stroke: var(--blue);
+  fill: var(--blue);
 }
 
 .icon-phone {
+  width: 20px;
+  height: 32px;
   margin-right: 10px;
+  fill: var(--gray);
 }
 
 .icon-mail:hover {
-  stroke: var(--button-blue);
+  fill: var(--button-blue);
 }
 
 .icon-phone:hover {
-  stroke: var(--blue);
+  fill: var(--blue);
 }
 
 .mail {
@@ -217,6 +223,24 @@ h1:hover {
   justify-content: center;
   padding-top: 94px;
   background-color: var(--almost-white);
+}
+
+.first-section-logo-list {
+  max-width: 1200px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.first-section-logo {
+  width: 270px;
+  height: 120px;
+  background: var(--light-gray);
+  border-radius: 4px;
 }
 
 .first-section-list {
@@ -297,6 +321,7 @@ h1:hover {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1666em;
+  letter-spacing: 0.03em;
   color: var(--almost-black);
 }
 
@@ -338,6 +363,54 @@ h1:hover {
 .third-section-list h3:hover,
 .third-section-list p:hover {
   text-decoration: underline solid var(--blue);
+}
+
+/* Czwarta sekcja 8*/
+
+.four-section {
+  max-width: 1600px;
+  display: flex;
+  justify-content: center;
+  padding: 94px 0 94px 0;
+  background-color: var(--almost-white);
+}
+
+.h2-four-section {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1666em;
+  letter-spacing: 0.03em;
+  color: var(--almost-black);
+}
+
+.h2-four-section:hover {
+  text-decoration: underline solid var(--blue);
+}
+
+.four-section-logo-list {
+  max-width: 1200px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.four-section-logo {
+  width: 170px;
+  height: 92px;
+  background: var(--light-gray);
+  fill: var(--border-clients);
+  border: 1px solid var(--border-clients);
+  border-radius: 4px;
+}
+
+.four-section-logo:hover {
+  fill: var(--blue);
 }
 
 /* Stopka indeks i porfolio */
