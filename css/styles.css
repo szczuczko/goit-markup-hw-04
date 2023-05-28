@@ -190,7 +190,7 @@ main {
   padding-top: 200px;
   padding-bottom: 280px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(./images/Img.jpg), url(./images/Img_Overlay.jpg);
+    url(./images/backgrund_img.jpg), url(./images/backgrund_img_overlay.jpg);
   background-size: cover;
 }
 
